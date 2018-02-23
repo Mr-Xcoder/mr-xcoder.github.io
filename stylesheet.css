@@ -1,62 +1,66 @@
 body {
-    background-color: #202020;
-    margin: 10px auto;
-    color: #d2d2d2;
-    font-family: sans-serif;
-    width: 75%;
-    font-size: 18px;
-    line-height: 1.5;
-    padding: 20px 0px;
+  background-color: #202020;
+  margin: 10px auto;
+  color: #d2d2d2;
+  font-family: sans-serif;
+  width: 75%;
+  max-width: 750px;
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 20px 0px;
 }
 
-a:link, a:visited  {
-    text-decoration: none;
-    color: #b5dc46;
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #b5dc46;
 }
 
-a:hover, a:active {
-    text-decoration: none;
-	color: #c9dc46;
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #c9dc46;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    border-radius: 5px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 5px;
 }
 
 li {
-    float: left;
+  float: left;
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 li a:hover {
-    background-color: #555555;
+  background-color: #555555;
 }
 
 li a:active {
-	background-color: #333333;
+  background-color: #333333;
 }
 
 @media only screen and (max-width:620px) {
-    body {
-        width: 95%;
-    }
-    ul {
-    	width: 95%;
-        margin: 0 auto;
-    }
-    li {
-        width: 100%;
-    }
+  body {
+    width: 95%;
+  }
+  ul {
+    width: 95%;
+    margin: 0 auto;
+  }
+  li {
+    width: 100%;
+  }
 }
+
