@@ -1,7 +1,7 @@
 body {
   background-color: #202020;
   margin: 10px auto;
-  color: #d2d2d2;
+  color: #c6c6c6;
   font-family: sans-serif;
   width: 90%;
   max-width: 800px;
@@ -64,4 +64,3 @@ li a:active {
     width: 100%;
   }
 }
-
